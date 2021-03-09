@@ -1,3 +1,5 @@
+![Gradle Build](https://github.com/netikalyan/PersonRESTfulService/actions/workflows/gradle.yml/badge.svg)
+
 # RESTful Web services in Java
 REST, an acronym for REpresentational State Transfer, is an architectural style for developing applications that can be accessed over the network. **[JAX-RS](https://docs.oracle.com/javaee/6/tutorial/doc/giepu.html)** (Java API for RESTful Web Services) is the Java API for creating REST web services. It uses annotations to simplify the development and deployment of web services.
 
