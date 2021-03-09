@@ -24,15 +24,15 @@
 
 package com.netikalyan.restful.service;
 
+import com.netikalyan.restful.model.Person;
+import com.netikalyan.restful.model.Response;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-
-import com.netikalyan.restful.model.Person;
-import com.netikalyan.restful.model.Response;
 
 public interface IPersonService {
 	@POST

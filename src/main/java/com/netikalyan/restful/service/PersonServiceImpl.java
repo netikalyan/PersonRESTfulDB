@@ -24,6 +24,9 @@
 
 package com.netikalyan.restful.service;
 
+import com.netikalyan.restful.model.Person;
+import com.netikalyan.restful.model.Response;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,10 +38,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.netikalyan.restful.model.Person;
-import com.netikalyan.restful.model.Response;
-
-@Path("/person")
+@Path("/")
 public class PersonServiceImpl implements IPersonService {
 
 	private static Map<Integer, Person> persons = new HashMap<Integer, Person>();
